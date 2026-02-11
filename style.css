@@ -2,6 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf3 40%, #dde6f0 100%);
+    color: #1f2933;
+}
+
+section {
+  margin: 4rem auto;
+  padding: 2rem 1rem;
+}
+
 /* ----- Header ----- */
 
 .nav {
@@ -159,9 +171,21 @@ html {
 
 /* ----- Work section ----- */
 
-.push {
-    margin-top: 70px;
-    margin-left: 15px;
+#work {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
+#work h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.work__image {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
 .work__box {
@@ -174,9 +198,9 @@ html {
     .work__box {
         align-items: initial;
         flex-direction: column-reverse;
+        grid-template-columns: 1fr;
     }
 }
-
 
 /*
 @media(max-width: 500px) {
@@ -244,6 +268,14 @@ img {
     max-width: 100%;
 }
 
+/*------- About section -------------*/
+
+#about {
+  max-width: 900px;
+  margin: 6rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
 
 .bio-circle {
   border-radius: 50%;
@@ -262,11 +294,13 @@ img {
   margin: auto;
   padding: 15px;
   color: black;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   /* flex: 1; */
 }
 .cardContent {
   padding: 15px;
-}
-#thumbnail {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
