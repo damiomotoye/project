@@ -9,18 +9,27 @@ body {
     color: #1f2933;
 }
 
-section {
-  margin: 4rem auto;
-  padding: 2rem 1rem;
+/* ----- Header ----- */
+
+.header {
+  backdrop-filter: blur(10px);
 }
 
-/* ----- Header ----- */
+.nav__link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1f2933;
+  position: relative;
+}
 
 .nav {
   display: flex;
   align-items: center;          /* vertical alignment */
   justify-content: space-between; /* left + right split */
   padding: var(--gutter-normal) 15px;
+  max-width: 1275px;
+  margin: auto;
+  padding: 1rem 2rem;
 }
 
 
@@ -69,6 +78,13 @@ section {
     height: 1rem;
     background: var(--white);
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
+    content: ""; 
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: #6366f1;
+    transition: width 0.25s ease;
 }
 
 .nav__link:hover {
@@ -78,6 +94,7 @@ section {
 .nav__link:hover::after {
     right: 0;
     height: 2px;
+    width: 100%;
     background: rgb(233, 52, 82);
 }
 
@@ -98,8 +115,7 @@ section {
  .stickman {
     position: relative;
     display: block;
-    margin-left: 15px;
-   margin-top: 10px;
+    margin-top: 10px;
   }
 
   .stickman-top {
@@ -288,7 +304,7 @@ img {
   color: black;
 }
 .fullCard {
-  width: 350px;
+  width: 550px;
   border: 1px solid black;
   border-radius: 15px;
   margin: auto;
@@ -303,4 +319,15 @@ img {
 }
 .cardContent {
   padding: 15px;
+}
+
+.line {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#contact {
+  text-align: center;
 }
