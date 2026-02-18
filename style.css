@@ -350,7 +350,7 @@ img {
 }
 
 .cardWords {
-  text-align: justify;
+  text-align: left;
   color: #374151;
   margin-top: 1.5rem;
 }
@@ -390,14 +390,18 @@ hr {
 
 @media(max-width: 901px) {
   .fullCard {
-    width:350px;
+    width:300px;
   }
   .cardWords {
     font-size: 13px;
+    text-align: left;
   }
   .bio-circle {
-    width: 150px; 
-    height: 150px;
+    width: 100px; 
+    height: 100px;
+  }
+  .line{
+    gap: 0.5rem;
   }
 }
 
