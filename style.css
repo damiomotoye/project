@@ -249,8 +249,8 @@ a {
 .work__text li {
   font-size: 0.85rem;
   padding: 0.35rem 0.75rem;
-  background: #eef2ff;
-  color: #4338ca;
+  background: #af8fe9;
+  color: #6d14c4;
   border-radius: 999px;
 }
 
@@ -291,13 +291,13 @@ a {
 }
 
 .work__links:hover {
-    color: rgb(233, 52, 82) ;
+    color: #6d14c4 ;
 }
 
 .work__links:hover::after {
     right: 0;
     height: 2px;
-    background: rgb(233, 52, 82);
+    background: #af8fe9;
 }
 
 .work__links::after {
@@ -388,6 +388,19 @@ hr {
   padding: 15px;
 }
 
+@media(max-width: 901px) {
+  .fullCard {
+    width:350px;
+  }
+  .cardWords {
+    font-size: 13px;
+  }
+  .bio-circle {
+    width: 150px; 
+    height: 150px;
+  }
+}
+
 /*--- CONTACT section --*/
 #contact {
   max-width: 900px;
@@ -412,7 +425,7 @@ hr {
   justify-content: center;
 }
 
-/*
+
 button {
   background: linear-gradient(135deg, #6366f1, #4f46e5);
   color: white;
@@ -428,4 +441,3 @@ button:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 25px rgba(79,70,229,0.35);
 }
-*/
