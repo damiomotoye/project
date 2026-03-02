@@ -47,7 +47,7 @@ a {
   align-items: center;          /* vertical alignment */
   justify-content: space-between; /* left + right split */
   padding: var(--gutter-normal) 15px;
-  max-width: 1275px;
+  max-width: 1275px; /* might adjust this */
   margin: auto;
   padding: 1rem 2rem;
 }
@@ -258,6 +258,10 @@ a {
     margin-bottom: var(--gutter-normal);
 }
 
+.work__image-box img:hover {
+  transform: scale(1.2);
+}
+
 .work__box:hover {
   transform: translateY(-8px);
   box-shadow: 0 30px 60px rgba(0,0,0,0.12);
@@ -337,6 +341,13 @@ img {
   margin-top: 1.5rem;
 }
 
+.smallcardWords {
+  text-align: left;
+  color: #374151;
+  margin-top: 1.5rem;
+  display: none;
+}
+
 hr {
   border: none;
   height: 1px;
@@ -370,15 +381,22 @@ hr {
   padding: 15px;
 }
 
-/* create a second media query keep this for phones
-change dimensions and create another one for tablets and the like */
+/* fix everything inside your media queries yes you need 2
+change dimensions and create another one for tablets and the like 
+700px atm
+*/
+
 @media(max-width: 901px) {
   .fullCard {
     width:300px;
   }
   .cardWords {
+    display: none;
+  }
+  .smallcardWords{
     font-size: 13px;
     text-align: left;
+    display: flex; 
   }
   .bio-circle {
     width: 100px; 
@@ -394,6 +412,9 @@ change dimensions and create another one for tablets and the like */
     gap: 30px;
     margin-right: 11px;
 } 
+.work__image-box img:hover {
+  transform: none;
+}
 }
 
 /*--- CONTACT section --*/
