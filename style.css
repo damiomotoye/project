@@ -47,7 +47,7 @@ a {
   align-items: center;          /* vertical alignment */
   justify-content: space-between; /* left + right split */
   padding: var(--gutter-normal) 15px;
-  max-width: 1275px; /* might adjust this */
+  /* max-width: 1275px; (might adjust this) */
   margin: auto;
   padding: 1rem 2rem;
 }
@@ -85,19 +85,19 @@ a {
     bottom: -4px;
     width: 0%;
     height: 2px;
-    background: #6366f1;
+    background: #6d14c4;
     transition: width 0.25s ease;
 }
 
 .nav__link:hover {
-    color: rgb(233, 52, 82) ;
+    color: #6d14c4 ;
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
     width: 100%;
-    background: rgb(233, 52, 82);
+    background: #af8fe9;
 }
 
 @media(max-width: 500px) {
@@ -366,7 +366,6 @@ hr {
   border: 1px solid black;
   border-radius: 15px;
   margin: auto;
-  padding: 15px;
   color: black;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
@@ -381,12 +380,7 @@ hr {
   padding: 15px;
 }
 
-/* fix everything inside your media queries yes you need 2
-change dimensions and create another one for tablets and the like 
-700px atm
-*/
-
-@media(max-width: 901px) {
+@media(max-width: 600px) {
   .fullCard {
     width:300px;
   }
@@ -394,9 +388,9 @@ change dimensions and create another one for tablets and the like
     display: none;
   }
   .smallcardWords{
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
-    display: flex; 
+    display: block; 
   }
   .bio-circle {
     width: 100px; 

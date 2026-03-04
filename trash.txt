@@ -194,3 +194,23 @@
     <div class="beak-bottom"></div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+Mobile
+Hi, I’m Dami a fourth-year Computer Science student focused on IT support, data science and web design.
+I enjoy building clean, responsive websites and supporting users through practical, reliable technical solutions. 
+With experience in Microsoft 365, Active Directory, Intune, ServiceNow, and front-end web technologies, I’m passionate about making technology intuitive and dependable.
+I also maintain an interest in cybersecurity and programming, applying secure design principles to everything I build.
+
+Desktop
+Hi, I’m Dami Omotoye, a fourth-year Computer Science student at the University of Lethbridge with a strong focus on IT support, web design, and user-centered technology.
+I’m passionate about building and maintaining systems that people can rely on — whether that means designing clean, responsive web interfaces or troubleshooting technical issues to keep environments running smoothly. I enjoy working at the intersection of usability and functionality, making technology both intuitive and dependable.
+Through my academic projects and professional IT support experience, I’ve developed hands-on skills in Windows and macOS environments, Microsoft 365, Active Directory, Intune, and ServiceNow, alongside front-end web technologies like HTML, CSS, JavaScript, and Bootstrap. I take pride in writing clean, organized code and delivering practical solutions that improve the user experience.
+While my primary interest lies in technical support and web design, I also maintain a strong foundation in cybersecurity principles and programming. Exploring secure systems design and understanding how infrastructure and applications can be protected continues to shape how I approach problem-solving.
+I’m currently seeking opportunities where I can contribute through hands-on IT support, responsive web design, and user-focused solutions, while continuing to grow in secure systems and real-world infrastructure environments.
