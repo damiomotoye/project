@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -409,6 +409,13 @@ hr {
 .work__image-box img:hover {
   transform: none;
 }
+}
+
+@media(max-width: 900px) {
+  .work__image-box img:hover {
+  transform: none;
+}
+
 }
 
 /*--- CONTACT section --*/
